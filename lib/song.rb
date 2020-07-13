@@ -29,7 +29,7 @@ class Song
   end
   
   def artist_count
-     {artist => artists.length}
+     {artist => artists.length}#maybe switch key name
   end 
   
 end  
