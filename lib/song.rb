@@ -14,7 +14,9 @@ class Song
     @@song_count
   end 
   
-  
+  def genres
+    
+  end  
   
   
   
