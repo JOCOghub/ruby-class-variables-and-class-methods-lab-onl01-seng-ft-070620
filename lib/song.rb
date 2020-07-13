@@ -26,11 +26,11 @@ class Song
     @@artists.uniq
   end
 
-  def genre_count
+  def self.genre_count
     {@genre => genres.length}#might need to switch to artists of @@artists or similar thing
   end
   
-  def artist_count
+  def self.artist_count
      {@artist => artists.length}#maybe switch key name
   end 
   
