@@ -20,7 +20,7 @@ class Song
   end  
   
   def artist 
-    
+    @@artists
   end
 
 
