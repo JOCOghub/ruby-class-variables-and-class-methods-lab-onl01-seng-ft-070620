@@ -17,6 +17,7 @@ class Song
   def genres
     genres = []
     genres << @genre
+    genres.uniq
   end  
   
   
