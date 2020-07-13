@@ -27,6 +27,11 @@ class Song
   def genre_count
     :name => number
   end
+  
+  def artist_count
+    
+  end 
+  
 end  
   
   
