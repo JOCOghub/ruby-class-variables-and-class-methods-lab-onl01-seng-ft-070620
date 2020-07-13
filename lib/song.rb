@@ -20,7 +20,7 @@ class Song
     @@genres = [].uniq
   end  
   
-  def artist 
+  def artists 
     @@artists = [].uniq
   end
 
