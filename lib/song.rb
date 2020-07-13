@@ -29,7 +29,7 @@ class Song
   end
   
   def artist_count
-     {:artist => genres.length}
+     {:artist => artists.length}
   end 
   
 end  
