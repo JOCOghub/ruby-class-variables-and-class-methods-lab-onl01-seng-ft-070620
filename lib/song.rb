@@ -25,11 +25,11 @@ class Song
   end
 
   def genre_count
-    {:genre => genres.length}#might need to switch to artists of @@artists or similar thing
+    {genre => genres.length}#might need to switch to artists of @@artists or similar thing
   end
   
   def artist_count
-     {:artist => artists.length}
+     {artist => artists.length}
   end 
   
 end  
