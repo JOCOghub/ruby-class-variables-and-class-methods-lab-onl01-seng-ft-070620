@@ -1,7 +1,7 @@
 class Song
   attr_reader :name, :artist, :genre
   
-  @@count = 0
+  @@song_count = 0
   
   def self.count
     @@album_count
