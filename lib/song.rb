@@ -24,7 +24,9 @@ class Song
     @@artists = [].uniq
   end
 
-
+  def genre_count
+    :name => number
+  end
 end  
   
   
