@@ -7,11 +7,11 @@ class Song
     @name = name 
     @artist = artist 
     @genre = genre
-    @@count += 1
+    @@song_count += 1
   end
   
  def self.count
-    @@album_count
+    @@song_count
   end 
 end  
   
