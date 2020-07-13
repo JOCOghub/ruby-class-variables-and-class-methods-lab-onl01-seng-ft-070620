@@ -39,7 +39,7 @@ class Song
   end
   
   def self.artist_count
-     {@artist => artists.length}#maybe switch key name
+     
   end 
   
 end  
