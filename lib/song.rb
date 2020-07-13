@@ -3,6 +3,10 @@ class Song
   
   @@count = 0
   
+  def self.count
+    @@album_count
+  end
+  
   def initialize(name, artist, genre)
     @name = name 
     @artist = artist 
