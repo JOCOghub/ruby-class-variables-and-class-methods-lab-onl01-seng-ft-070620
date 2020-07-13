@@ -15,7 +15,8 @@ class Song
   end 
   
   def genres
-    
+    genres = []
+    genres << @genre
   end  
   
   
